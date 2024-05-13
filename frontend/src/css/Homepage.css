@@ -1,0 +1,60 @@
+.homepage-container {
+    padding: 20px;
+}
+
+.homepage-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.logout-button {
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 1300px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.new-project-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.new-project-button:hover {
+    background-color: #0056b3;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.project-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.view-project-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.view-project-button:hover {
+    background-color: #218838;
+}
+
+/* Additional styles as needed */
